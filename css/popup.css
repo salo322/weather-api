@@ -101,13 +101,14 @@ h1 {
    font-size: 32px;
 }
 #description{
-    font-weight: bold;
-    font-size:20px;
+    font-size:16px;
     text-align: center;
     font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 4px;
+    font-weight: bold;
 }
 #location{
-    font-weight:bold;
+    font-size: 15px;
     text-align: center;
     font-family: 'Noto Sans KR', sans-serif;
 }
@@ -117,4 +118,7 @@ h1 {
 #icon{
     text-align: center;
 
+}
+#wicon{
+    height:80px;
 }

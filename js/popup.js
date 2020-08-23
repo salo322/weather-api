@@ -1,4 +1,9 @@
+
+
+ 
+
 const key = 'eb873442883aceccb6c924278eef5ad7';
+
 
 function weatherForecast(city) {
     fetch('https://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=' + key +'&cnt=5')  
@@ -48,19 +53,3 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-
-$('#click-me').click(function() {
-    var height = $("#this").height();
-    if( height > 0 ) {
-        $('#this').css('height','0');
-    } else {
-        var clone = $('#this').clone()
-                    .css({'position':'absolute','visibility':'hidden','height':'auto'})
-                    .addClass('slideClone')
-                    .appendTo('body');
-        var newHeight = $(".slideClone").height();
-        $(".slideClone").remove();
-
-        $('#this').css('height',newHeight + 'px');
-    }
-});
