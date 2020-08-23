@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;700&display=swap');
+body{
+    width:450px;
+    height:400px;
+    background:#a3d2ca;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 3px 1px;
+    margin:0;
+    padding:0;
+   
+}
+
+.first-flex-container-for-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.for-input-and-button-cont{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+   
+    width: 340px;
+
+}
+
+.search-button-1{
+    background:#3282b8;
+    border:none;
+    outline: none;
+    cursor: pointer;
+  
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 3px 1px;
+
+}
+.history-button-2{
+    background:#f08a5d;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 3px 1px;
+}
+.search-country-input{
+    padding: 4px 35px;
+    outline: none;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 3px 1px;
+}
+
+.title-weather-main{
+    font-family: 'Satisfy', cursive;
+    font-size:30px;
+    text-shadow: 4px 4px 2px #f08a5d;
+    font-weight: bold;
+    color:#0f3460;
+}
+.main-container-input-for-weather{
+    margin: 15px 0;
+}
+.line-after-title{ 
+    background:#000000;
+    width:auto;
+    height: 1px;
+    opacity:0.2;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 3px 1px;
+}
+#this {
+    width: 150px;
+    height: 0px;
+    max-height: 9999px;
+    overflow: hidden;
+    background: #BBBBBB;
+    -webkit-transition: height 1s ease-in-out;
+    -moz-transition: height 1s ease-in-out;
+    -ms-transition: height 1s ease-in-out;
+    -o-transition: height 1s ease-in-out;
+    transition: height 1s ease-in-out;
+}
+.flex-for-fadein-out{
+    display: flex;
+    justify-content: space-between;
+    width:510px;
+}
+
+h1 {
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+.main-container,.search-component{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2em;
+}
+
+
+
+.button-search{
+   font-size: 32px;
+}
+#description{
+    font-weight: bold;
+    font-size:20px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#location{
+    font-weight:bold;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.image-append{
+    text-align:center;
+}
+#icon{
+    text-align: center;
+
+}

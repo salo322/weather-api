@@ -1,0 +1,30 @@
+{
+    "name": "Weather app",
+    "version": "1.0",
+    "icons":{
+        "48":"./img/weather.png"
+    },
+    "description": "show weather in any country and region",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_popup":"popup.html",
+      "default_icon": {
+        "19": "./img/weather.png",
+        "38": "./img/weather.png"
+    }
+    },
+    "permissions": [
+
+       "storage",
+       "geolocation",
+       "alarms",
+       "<all_urls>"
+
+    ],
+    
+    "background": {
+      "scripts": ["./js/jquery.js", "./js/background.js"],
+      "persistent": false
+ 
+    }
+  }
